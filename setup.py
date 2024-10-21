@@ -110,7 +110,7 @@ setup(
     long_description_content_type='text/markdown',
     name='sdv',
     packages=find_packages(include=['sdv', 'sdv.*']),
-    python_requires='>=3.6,<3.10',
+    python_requires='>=3.6,<3.12',
     setup_requires=setup_requires,
     test_suite='tests',
     tests_require=tests_require,
